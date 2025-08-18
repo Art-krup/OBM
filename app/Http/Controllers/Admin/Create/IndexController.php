@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers\Admin\Create;
 
 use App\Http\Controllers\Controller;
 use App\Models\Product;
@@ -10,6 +10,6 @@ class IndexController extends Controller
 {
     public function __invoke()
     {
-        return view('admin.index');
+        return view('admin.create.index');
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers\Admin\Delete;
 
 use App\Http\Controllers\Controller;
 use App\Models\Product;
@@ -10,6 +10,7 @@ class IndexController extends Controller
 {
     public function __invoke()
     {
-        return view('admin.index');
+        ///пока под вопросом
+        return view('admin.delete.index');
     }
 }
